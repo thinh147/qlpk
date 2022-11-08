@@ -23,6 +23,9 @@ public class Buong {
     @Column(name = "suc_chua")
     private String sucChua;
 
+    @Column(name = "suc_chua_toi_da")
+    private String sucChuaToiDa;
+
     @Column(name = "mo_ta")
     private String mota;
 
