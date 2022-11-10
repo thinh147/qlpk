@@ -23,9 +23,6 @@
                 <span>Mật Khẩu</span>
                 <form:input path="dto.password" />
             </div>
-<%--            <div class="nho-dang-nhap">--%>
-<%--                <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>--%>
-<%--            </div>--%>
             <div class="input-form">
                 <input type="submit" value="Đăng nhập" />
             </div>

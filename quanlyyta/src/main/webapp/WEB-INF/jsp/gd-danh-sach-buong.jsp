@@ -33,7 +33,9 @@
                         <td>${item.sucChuaToiDa}</td>
                         <td>${item.mota}</td>
                         <td>
-                            <button>Chọn</button>
+                            <form action="${pageContext.request.contextPath}/buong/detail" method="get">
+                                <button type="submit">Chọn</button>
+                            </form>
                         </td>
                     </tr>
                 </c:forEach>
